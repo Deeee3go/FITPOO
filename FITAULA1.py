@@ -1,2 +1,2 @@
-print('ola mundo')
 import this
+print('ola mundo')
