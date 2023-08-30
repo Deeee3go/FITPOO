@@ -1,10 +1,18 @@
 class Mae:
-    pass
+    def __init__(self, p1):
+        print('executanto o init de Mae')
+        self.p1 = p1
 
 
 class Filha(Mae):
-    pass
+    def __init__(self, p1, p2):
+        print('executanto o init de Filha')
+        self.p2 = p2
+        super().__init__(p1)
 
 
 class Neta(Filha):
-    pass
+    def __init__(self, p1, p2, p3):
+        print('executanto o init de Neta')
+        self.p3 = p3
+        super().__init__(p1, p2)
