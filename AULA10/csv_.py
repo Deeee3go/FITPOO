@@ -28,4 +28,4 @@ with open('estoque.csv', 'r', newline='',
 
 novas_colunas, *novo_estoque = novo_estoque         # 1
 print(novas_colunas)
-print('[', *novo_estoque, sep='\n  ', end='\n]') 
+print('[', *novo_estoque, sep='\n  ', end='\n]')
