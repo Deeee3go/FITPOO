@@ -9,3 +9,4 @@ def cronometro(f):
         print(f'{f.__name__} executada em {t2-t1:.4e} segundos')
         return r
     return envelope
+# CU
