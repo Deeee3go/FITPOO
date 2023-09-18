@@ -10,3 +10,6 @@ def cronometro(f):
         return r
     return envelope
 # CU
+
+
+cronometro(55)
