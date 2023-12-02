@@ -1,0 +1,1 @@
+compras = ['cereal', 'suco', 'banana', 'maçã', 'azeite']
